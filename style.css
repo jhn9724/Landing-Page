@@ -130,3 +130,9 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 25px;
+}
