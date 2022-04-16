@@ -1,13 +1,31 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .header {
     background-color: #1f2937;
 }
+.logo-links
+{
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-left: 50px;
+}
+.headerlinks{
+    margin-right: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
 }
 .main-text{
     font-size: 48px;
@@ -17,6 +35,23 @@ body {
 .secondary-text{
     font-size: 18px;
     color: #e5e7eb;
+}
+.leftheader{
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.rightheader{
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.image{
 }
 button {
     background-color:  #3882f6;
@@ -31,13 +66,24 @@ button {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
+    text-align: justify;
+}
+.quotedguy{
+    font-weight: bolder;
+    text-align: end;
+    background-color: #e5e7eb;
+
 }
 .call-to-action{
     background-color:  #3882f6;
     color: #e5e7eb;
 }
-ol{
+ul{
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 a { 
     text-decoration: none;
