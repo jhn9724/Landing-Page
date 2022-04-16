@@ -56,8 +56,27 @@ body {
 .image{
 }
 button {
+    
+}
+.button1{
     background-color:  #3882f6;
     color: #f9faf8;
+    padding: 2px 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    width: 90px;
+    margin-top: 5px;
+}
+.button2{
+    background-color:  #3882f6;
+    color: #f9faf8;
+    padding: 2px 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f9faf8;
+    width: 90px;
+    margin-top: 5px;   
 }
 .header2{
     font-size: 36px;
@@ -92,6 +111,12 @@ button {
 .call-to-action{
     background-color:  #3882f6;
     color: #e5e7eb;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+    border-radius: 8px;
 }
 ul{
     list-style: none;
